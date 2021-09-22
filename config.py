@@ -25,15 +25,16 @@ load_dotenv()
 admins = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_STRING = getenv("SESSION_STRING", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "SafoTheBot")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
+API_ID = 8997742
+API_HASH = "414ef4da4921ef3fd3632d017513e139"
+BOT_TOKEN = "2017737389:AAFNAZ-rZTVmwrkTZ32wToIhzZTIZTzvP2c"
+SESSION_STRING = """BQAB76WbqaDrSpFEIYz7jkzElVQVAf6wDhHlrY7Pa21bSj1LmG-l-kkAhXPr89tQUSWeNWi_Sb_QVJ4OTLuGTy9fA5kv2pmw9amRPZEUSt2eNcbDgnvVpvUyizSOKlQfWVGXB8kFf5JMh_SFauZ5zwAkw3uYfsNK_AYeWtcBNgFtWEX0bhRDEZR-LnBoBPKYTo_tZgWquB0U-EaX06j8zq9HR6qbMYfKlynkUkvjj7DKuOooPn5PpVzTa3_TohW4vwxR6t-t3CJYDQzaGob5FABJJvxDhV1dLi-VGh-dhv5e795pPGEA7csTuPPoJtVGmQL2F2svP5Zic6mx-cwxWgD-dOTZAgA
+"""
+SUPPORT_GROUP = "vstreamtest1"
+UPDATES_CHANNEL = ""
+ASSISTANT_NAME = "vsassist1"
+SUDO_USERS = [1961154818]
+REPLY_MESSAGE = "I am busy, please speak with the experts. "
 if REPLY_MESSAGE:
     REPLY_MESSAGE = REPLY_MESSAGE
 else:
